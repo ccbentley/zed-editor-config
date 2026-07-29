@@ -7,6 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "language_models": {
+    "lmstudio": {
+      "api_url": "http://127.0.0.1:1234/api/v0"
+    }
+  },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    },
+    "github-copilot-cli": {
+      "type": "registry"
+    }
+  },
   "ui_font_family": "JetBrainsMono Nerd Font Mono",
   "project_panel": {
     "dock": "left"
