@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Monospace Icon Theme - Dark",
   "language_models": {
     "lmstudio": {
       "api_url": "http://127.0.0.1:1234/api/v0"
@@ -51,6 +52,6 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "msun-dark",
+    "dark": "Modern Vesper",
   },
 }
