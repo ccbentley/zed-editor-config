@@ -1,4 +1,7 @@
 {
+  "show_edit_predictions": false,
+  "disable_ai": false,
+  "cli_default_open_behavior": "existing_window",
   "git": {
     "inline_blame": {
       "enabled": false
@@ -25,21 +28,21 @@
   "ui_font_family": "JetBrainsMono Nerd Font Mono",
   "project_panel": {
     "file_icons": true,
-    "dock": "right"
+    "dock": "left"
   },
   "outline_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "agent": {
-    "dock": "left",
+    "dock": "right",
     "favorite_models": [],
     "model_parameters": []
   },
   "git_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "edit_predictions": {
     "provider": "copilot"
@@ -54,6 +57,6 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Vesper Blur",
+    "dark": "Everforest Dark Hard (blur)",
   },
 }
